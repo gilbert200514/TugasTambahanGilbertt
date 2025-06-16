@@ -1,0 +1,64 @@
+body {
+  background-color: #121212;
+  font-family: sans-serif;
+  color: yellow; /* ubah warna font di sini */
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}
+
+.container {
+  max-width: 400px;
+  width: 100%;
+}
+
+h1, h2 {
+  color: yellow; /* ubah warna heading jadi kuning */
+  text-align: center;
+}
+
+.menu-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.menu-item {
+  background-color: #2b2b2b;
+  padding: 10px;
+  border-radius: 8px;
+  text-align: center;
+  cursor: pointer;
+  color: yellow; /* font item menu juga kuning */
+}
+
+.menu-item.selected {
+  border: 2px solid #a87eff;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #a87eff;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  color: yellow; /* font tombol kuning */
+}
+
+ul#pesanan-list {
+  list-style: none;
+  padding: 0;
+}
+
+ul#pesanan-list li {
+  background-color: #1f1f1f;
+  margin: 5px 0;
+  padding: 8px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  color: yellow; /* font daftar pesanan kuning */
+}
